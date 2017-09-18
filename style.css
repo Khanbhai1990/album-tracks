@@ -1,0 +1,54 @@
+#wrapper{
+  background-color:#F5F5F5;
+  background-image: url("/Users/hassankhan/Projects/playlist/resources/fadedTrack.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height:100vh;
+}
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color:#F5F5F5;
+    padding: 0px;
+}
+
+#header{
+  padding-top: 40px;
+  height: 20px;
+  position: relative;
+  background-color:#9d9e8f;
+  /*width: 100%;
+  height: 3%;*/
+}
+
+img {
+  width: 220px;
+  height:220px;
+}
+
+#footer{
+  position: fixed;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   /*padding: 0rem;*/
+   /*background-color: #efefef;*/
+   text-align: left;
+    background-color:#676851;
+    /*width: 100%;*/
+}
+
+#title{
+  margin-left: 40%;
+  margin-top: 50%;
+}
+.stack{
+  margin-left: 30%;
+}
+.flexIt{
+  display: flex;
+  height:100%;
+  padding-bottom: 0%;
+}
